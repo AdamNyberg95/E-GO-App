@@ -1,0 +1,15 @@
+.search {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.player-list {
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+}
+.search-player {
+  border-radius: 5px;
+  height: 25px;
+  width: 100%;
+}

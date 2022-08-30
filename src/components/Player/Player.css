@@ -1,0 +1,10 @@
+.buy {
+  font-size: 14px;
+  padding: 6px 20px;
+  background: rgb(29, 216, 120);
+}
+
+.sell {
+  font-size: 14px;
+  padding: 6px 20px;
+}
