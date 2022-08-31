@@ -25,7 +25,7 @@ const Modal = () => {
             backgroundColor: "rgba(235,235,235)",
             borderRadius: 5,
             padding: 20,
-            position: "relative",
+            position: "absolute",
           }}
         >
           <button
@@ -44,7 +44,7 @@ const Modal = () => {
               gap: "20px",
             }}
           >
-            <h1 style={{ margin: 0 }}>Message</h1>
+            <h1 style={{ margin: 0 }}>Submiting</h1>
             <p>Are you sure that you want to submit this team?</p>
           </div>
           <div
@@ -52,11 +52,13 @@ const Modal = () => {
               display: "flex",
               alignItems: "center",
               justifyContent: "center",
-              gap: "20px",
+              gap: "40px",
+              marginTop: "20px",
             }}
           >
-            <button>Yes</button>
+            <button className="btn yes">Yes</button>
             <button
+              className="btn no"
               onClick={() => {
                 setOpenModal(false);
               }}
